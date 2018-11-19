@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><script>
+    function validateClass(name){
+        patt = /^[ACP](?:[0-9]){4}[A-Za-z]*[GHIKLM]$/;
+        if (patt.test(name)) {
+            alert("true")
+        }else {
+            alert("false")
+        }
+    }
+    var text = prompt("Nhap de check");
+    validateClass(text);
+</script>
+</body>
+</html>
